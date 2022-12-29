@@ -8,3 +8,11 @@
 :root {
   font-size: calc(16px + (20 - 16) * (100vw - 320px) / (1280 - 320));
 }
+
+body {
+  background-color: hsl(223, 90%, 95%);
+  font: 1em/1.5 sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
