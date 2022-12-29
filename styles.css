@@ -16,3 +16,14 @@ body {
   display: grid;
   place-items: center;
 }
+
+.pl,
+.pl__ball,
+.pl__ball-inner-shadow,
+.pl__ball-side-shadows,
+.pl__ball-texture,
+.pl__inner-ring,
+.pl__outer-ring,
+.pl__track-cover {
+  border-radius: 50%;
+}
