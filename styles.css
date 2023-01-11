@@ -27,3 +27,20 @@ body {
 .pl__track-cover {
   border-radius: 50%;
 }
+.pl {
+  position: relative;
+  width: 16em;
+  height: 16em;
+}
+.pl__ball,
+.pl__ball-inner-shadow,
+.pl__ball-outer-shadow,
+.pl__ball-side-shadows,
+.pl__ball-texture,
+.pl__ball-texture:before,
+.pl__inner-ring,
+.pl__outer-ring,
+.pl__track-cover {
+  position: absolute;
+}
+
