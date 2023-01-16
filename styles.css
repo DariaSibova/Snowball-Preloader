@@ -80,3 +80,12 @@ body {
   z-index: -2;
 }
 
+.pl__ball-side-shadows {
+  background-color: hsla(0, 0%, 0%, 0.1);
+  filter: blur(2px);
+  width: 100%;
+  height: 100%;
+  transform: scale(0.75,1.1);
+  z-index: -1;
+}
+
