@@ -43,4 +43,11 @@ body {
 .pl__track-cover {
   position: absolute;
 }
+.pl__ball,
+.pl__ball-inner-shadow,
+.pl__ball-outer-shadow,
+.pl__ball-texture:before,
+.pl__track-cover {
+  animation: ball 3s linear infinite;
+}
 
