@@ -140,3 +140,48 @@ body {
   height: 100%;
 }
 
+/* Animations */
+@keyframes ball {
+  from {
+    transform: rotate(0) translateY(-6.5em);
+  }
+  50% {
+    transform: rotate(180deg) translateY(-6em);
+  }
+  to {
+    transform: rotate(360deg) translateY(-6.5em);
+  }
+}
+@keyframes ballInnerShadow {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes ballOuterShadow {
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(-340deg);
+  }
+}
+@keyframes ballTexture {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
+@keyframes trackCover {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
