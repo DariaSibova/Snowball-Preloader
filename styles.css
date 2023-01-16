@@ -50,4 +50,11 @@ body {
 .pl__track-cover {
   animation: ball 3s linear infinite;
 }
+.pl__ball {
+  top: calc(50% - 1.25em);
+  left: calc(50% - 1.25em);
+  transform: rotate(0) translateY(-6.5em);
+  width: 2.5em;
+  height: 2.5em;
+}
 
